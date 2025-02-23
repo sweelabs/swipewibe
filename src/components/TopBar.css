@@ -1,0 +1,91 @@
+.topbar {
+  background: rgba(18, 18, 30, 0.95);
+  backdrop-filter: blur(15px);
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.pulse {
+  color: #ff6b6b;
+  animation: pulse 1.5s infinite;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: rgba(255,255,255,0.03);
+}
+
+.nav-item i {
+  font-size: 1.2rem;
+  color: #4ecdc4;
+}
+
+.hover-effect:hover {
+  background: rgba(78,205,196,0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(78,205,196,0.2);
+}
+
+.logout-btn {
+  background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.glow {
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px rgba(255,107,107,0.3); }
+  to { box-shadow: 0 0 20px rgba(255,107,107,0.6); }
+}
