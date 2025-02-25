@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/swipewibe/static/css/main.b8bc61d2.css",
-    "main.js": "/swipewibe/static/js/main.f6828aa9.js",
+    "main.css": "/swipewibe/static/css/main.4721d061.css",
+    "main.js": "/swipewibe/static/js/main.073a32a6.js",
     "static/js/919.75332a1f.chunk.js": "/swipewibe/static/js/919.75332a1f.chunk.js",
     "index.html": "/swipewibe/index.html",
-    "main.b8bc61d2.css.map": "/swipewibe/static/css/main.b8bc61d2.css.map",
-    "main.f6828aa9.js.map": "/swipewibe/static/js/main.f6828aa9.js.map",
+    "main.4721d061.css.map": "/swipewibe/static/css/main.4721d061.css.map",
+    "main.073a32a6.js.map": "/swipewibe/static/js/main.073a32a6.js.map",
     "919.75332a1f.chunk.js.map": "/swipewibe/static/js/919.75332a1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8bc61d2.css",
-    "static/js/main.f6828aa9.js"
+    "static/css/main.4721d061.css",
+    "static/js/main.073a32a6.js"
   ]
 }
